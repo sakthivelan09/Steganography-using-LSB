@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Steganography</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+<h1>STEGANOGRAPHY &ensp;USING&ensp;LSB</h1>
+<canvas id="d1"></canvas>
+<canvas id="d2"></canvas>
+<p>
+  Cover image:
+<input type="file" multiple="flase" accept="image/*" id="cinput" onchange="upload()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  Background image:
+  <input type="file" multiple="flase" accept="image/*" id="hinput" onchange="upload1()">
+</p>
+<p>
+<canvas id="d3"></canvas>
+  <canvas id="d4"></canvas></p>
+<p>
+  &emsp;&emsp;&emsp; &emsp;&emsp;Click to 
+<input type="button" value="DO-STEGANO" id="steg" onclick="stego()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  Click to 
+<input type="button" value="EXTRACT" id="ext" onclick="ext()">
+  back the hidden image</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

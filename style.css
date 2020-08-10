@@ -1,0 +1,20 @@
+canvas{
+  border: 2px solid black;
+  width:600px;
+  height:400px;
+}
+#finput{
+  font-size:14pt;
+}
+p{
+  font-size:20pt 
+}
+#steg{
+    font-size:20pt;
+}
+body{
+  background-color:wheat;
+}
+#ext{
+  font-size:20pt;
+}
